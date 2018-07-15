@@ -1,0 +1,59 @@
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.aps
+*.pch
+*_i.c
+*_p.c
+*.ncb
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+
+#Ignore files build by Visual Studio, part 2
+*.user
+*.userosscache
+*.suo
+*.vspscc
+*.force
+
+#assembly files
+
+
+
+#ignore less generated files
+#*.css
+*.css.map
+
+# Visual Studio Cache/options directory
+.vs/
+
+# for more help on using .gitignore see:			#
+# https://help.github.com/articles/ignoring-files/	#
+
+ModelManifest.xml
+
+Accuer-HTML5/packages
+Hostel/HostelApi/packages
+Accuer-HTML5/.vs/
+Accuer-HTML5/**/Scripts/libs
+Accuer-HTML5/ngGitHouse/node_modules
+Accuer-HTML5/Accuer.Relay.Web/node_modules
+
+Accuer-HTML5/Accuer.Relay.Web/Scripts/libs/
+Accuer-HTML5/Accuer.Relay.Web/Scripts/out-tsc
+out-tsc/
